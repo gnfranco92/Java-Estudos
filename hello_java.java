@@ -31,7 +31,18 @@ class HelloJava {
         System.out.println(verdadeiro);
         Boolean falso =  false;
         System.out.println(falso);
+        System.out.println("------------------------------");
 
+        // Declarando um valor constante - CONVESÃO PARA VARIÁVEIS CONSTANTES
+        final int CONSTANTE = 123;
+        //consante = 2 -> irá gerar erro!
+        System.out.print("Valor constante: ");
+        System.out.println(CONSTANTE);
+        // Exemplo usual! "Banco de dados"
+        final String NOMEBANCO = "BANCO_FORNECEDORES";
+        System.out.print("Valor constante do banco de dados: ");
+        System.out.println(NOMEBANCO);
+        System.out.println("------------------------------");
 
     }
 
